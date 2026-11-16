@@ -1,0 +1,23 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 수집·엑셀 작업 중 생성되는 임시 파일
+*.csv.tmp
+~$*.xlsx
+
+# 운영체제 메타데이터
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# data/processed/사고_분석용.csv와 동일한 복사본
+/outputs/사고_분석용.csv
+
+# TMACS 수집 응답과 오류 로그는 로컬에 보관하고 연도별 검증 요약은 공유
+/data/raw/tmacs/**/*.json
+!/data/raw/tmacs/*/수집검증.json
